@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.books {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 2px solid rgb(135, 30, 48);
+}
+
+.books > div {
+  margin: 5px;
+}
+
+.app {
+  border: 8px inset #debdb8;
+}
