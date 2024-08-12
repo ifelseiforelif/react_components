@@ -17,5 +17,6 @@
 }
 
 .app {
-  border: 8px inset #debdb8;
+  outline: 10px inset rgba(28, 110, 164, 0.42);
+  outline-offset: 10px;
 }

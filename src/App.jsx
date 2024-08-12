@@ -1,5 +1,5 @@
 import reactLogo from "./assets/react.svg";
-import goodDay from "../public/good_day.jfif";
+import booksImg from "../public/books.jfif";
 import "./App.css";
 import { Book } from "./components/Book";
 import data from "./models/data.json";
@@ -15,7 +15,7 @@ function App() {
       <div className="app">
         <div>
           <p>Hello {name}</p>
-          <img src={goodDay} alt="react" />
+          <img src={booksImg} alt="react" />
           <p>Total Likes: {totalLike}</p>
         </div>
         <FormBook action={setBooks} books={books} />
